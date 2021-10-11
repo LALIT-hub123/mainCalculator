@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="screen" class="screen">
+          <input id="input" type="text">
+        </div>
+        <div id="keyboard" class="screen">
+            <div id="numbers" class="num-ops">
+                <div  id="1" class="num" onclick="f1()">1</div>
+                <div  id="2" class="num" onclick="f2()">2</div>
+                <div  id="3" class="num" onclick="f3()">3</div>
+                <div  id="4" class="num" onclick="f4()">4</div>
+                <div  id="5" class="num" onclick="f5()">5</div>
+                <div  id="6" class="num" onclick="f6()">6</div>
+                <div  id="7" class="num" onclick="f7()">7</div>
+                <div  id="8" class="num" onclick="f8()">8</div>
+                <div  id="9" class="num" onclick="f9()">9</div>
+                <div  id="0" class="num" onclick="f0()">0</div>
+                <div  id="dot" class="num" onclick="fdot()">.</div>
+                <div  id="result" class="num" onclick="result()">=</div>
+            </div>
+            <div id="operators" class="num-ops">
+                <div  id="back" class="ops" onclick="fback()"> X </div>
+                <div  id="del" class="ops" onclick="fdel()">C</div>
+                <div  id="add" class="ops" onclick="fadd()">+</div>
+                <div  id="subs" class="ops" onclick="fsubs()">-</div>
+                <div  id="mult" class="ops" onclick="fmult()">*</div>
+                <div  id="div" class="ops" onclick="fdiv()">%</div>
+                
+            </div>
+           
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
